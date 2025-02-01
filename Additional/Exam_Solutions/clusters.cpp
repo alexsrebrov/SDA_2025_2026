@@ -84,7 +84,6 @@ int main()
     
     DJS s(V);
     
-    int heaviest_edge = INT_MIN;
     int cnt = 0;
     for(int i = 0; i < edges.size(); i++)
     {
@@ -96,7 +95,6 @@ int main()
         
         if(s.my_union(vert1, vert2, curr_weight))
         {
-            heaviest_edge = max(heaviest_edge, curr_weight);
             cnt++;
         }
     }
