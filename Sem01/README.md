@@ -1,6 +1,6 @@
 # Семинар №1 по СДА - Сложност на алгоритми.
 ## Алгоритъм
-Алгоритъм ще наричаме последователност от стъпки за решаването на даден проблем. 
+Алгоритъм ще наричаме последователност от стъпки/операции, необходими за решаването на даден проблем. 
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/ca69e981-2f2d-464a-98c5-36c1510d0cee">
 
@@ -115,9 +115,97 @@ int* createArray(int size) {
 }
 ```
 
+---
+Определете сложността:
+
+```c++
+void f(vector<int>& arr) {
+    int sum = 0;
+    for (int i = 0; i < 5; i++) {
+        sum += arr[0];
+    }
+}
+```
+
+```c++
+void f(vector<int> arr) {
+    int sum = 0;
+    for (int i = 0; i < 5; i++) {
+        sum += arr[0];
+    }
+}
+```
+
+```c++
+void f(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n; i++) {
+        for (int j = n + i - 5; j <= n; j++)
+            cout << 1;
+    }
+}
+```
+
+```c++
+void f(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = n - 1; i >= 0; i /= 7) {
+        cout << 1;
+    }
+}
+```
+
+```c++
+void f(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n; i++) {
+        cout << 1;
+    }
+    for (int i = 1; i > n; i *= 2) {
+        cout << 1;
+    }
+}
+```
+
+```c++
+int f(int n) {
+    if (n <= 0)
+        return 0;
+    return 1 + f(n - 1);
+}
+```
+
+```c++
+int f(int n) {
+    if (n <= 0)
+        return 0;
+    return 1 + f(n/2);
+}
+```
+```c++
+int f(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return f(n - 1) + f(n - 2);
+}
+```
+
 
 -------------------------------------------------------------------------------------
-❗За задачите ще са ви необходими структурите `std::string`, `std::pair` и `std::vector`, като повече за техните методи ще намерите тук:
+Нека разгледаме структурите `std::string`, `std::pair` и `std::vector`, като повече за техните методи ще намерите тук:
 - [**string**](https://en.cppreference.com/w/cpp/string/basic_string)
 - [**pair**](https://en.cppreference.com/w/cpp/utility/pair)
 - [**vector**](https://en.cppreference.com/w/cpp/container/vector)
+
+
+---
+**Задачи**
+
+- [**Two Sum**](https://leetcode.com/problems/two-sum/) 
+
+- [**Plus One**](https://leetcode.com/problems/plus-one/)
+
+- [**Move Zeroes**](https://leetcode.com/problems/move-zeroes)
+
+- [**Valid Palindrome II**](https://leetcode.com/problems/valid-palindrome-ii)
