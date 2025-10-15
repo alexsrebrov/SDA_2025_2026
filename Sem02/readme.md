@@ -1,4 +1,4 @@
-# Семинар №3 по СДА - Алгоритми за сортиране.
+# Семинар №2 по СДА - Алгоритми за сортиране.
 ## Стабилност
 Един алгоритъм ще наричаме **стабилен**, ако той ни гарантира, че елементите, които са равни помежду си, няма да променят позициите си един спрямо друг след сортиране, т.е. не се променя относителната наредба.
 
@@ -19,7 +19,7 @@
 | [**Insertion Sort**](https://github.com/desiish/SDA_2025_2026/blob/main/Sem02/sorting_algorithms/insertion-sort.cpp) | O(n)                     | O(n^2)                        | O(n^2)                      | O(1)                 | Yes          | Yes        | Useful for small datasets, or nearly sorted lists.|
 | [**Selection Sort**](https://github.com/desiish/SDA_2025_2026/blob/main/Sem02/sorting_algorithms/selection-sort.cpp) | O(n^2)                   | O(n^2)                        | O(n^2)                      | O(1)                 | Yes          | No         | Useful when memory writes are costly.         |
 | [**Merge Sort**](https://github.com/desiish/SDA_2025_2026/blob/main/Sem02/sorting_algorithms/merge-sort.cpp)  | O(n log n)                  | O(n log n)                    | O(n log n)                  | O(n)                 | No           | Yes        | Useful for large datasets.                    |
-| [**Quick Sort**](https://github.com/desiish/SDA_2025_2026/blob/main/Sem02/sorting_algorithms/quick-sort.cpp)  | O(n log n)                  | O(n log n)                    | O(n^2)                      | O(log n) - for the call stack| Yes          | No         | Most general-purpose sorting.          |
+| [**Quick Sort**](https://github.com/desiish/SDA_2025_2026/blob/main/Sem02/sorting_algorithms/quick-sort.cpp)  | O(n log n)                  | O(n log n)                    | O(n^2)                      | O(1) / O(log n) if we count the call stack| Yes          | No         | Most general-purpose sorting.          |
 | [**Counting Sort**](https://github.com/desiish/SDA_2025_2026/blob/main/Sem02/sorting_algorithms/counting-sort.cpp) | O(n + k)                  | O(n + k)                      | O(n + k)                    | O(k)                 | No           | Yes        | Usefule when the range of input values is limited.|
 
 ## Функцията std::sort
@@ -75,3 +75,12 @@ int main() {
 - `std::less` и `std::greater` са мощни инструменти, които улесняват работата с алгоритми и контейнери в C++. Представляват функционални обекти с предефиниран оператор (), които се използват за сравняване на два обекта. Позволяват да дефинираме специфична логика за сравнение, като правят кода по-четим и лесен за поддръжка.
 ----
 [**Визуализация на сортиращите алгоритми**](https://visualgo.net/en/sorting)
+
+---
+## Задачи
+- [**Contains Duplicate**](https://leetcode.com/problems/contains-duplicate/description/)
+- [**Find The Difference**](https://leetcode.com/problems/find-the-difference/description/)
+- [**Squares Of Sorted Array**](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
+- [**Find Kth Largest**](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
+- [**Non-overlapping Intervals**](https://leetcode.com/problems/non-overlapping-intervals/description/)
+- [**Sort Characters By Frequency**](https://leetcode.com/problems/sort-characters-by-frequency/description/)
