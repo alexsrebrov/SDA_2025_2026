@@ -3,7 +3,7 @@ using namespace std;
 
 template <class T>
 int partition(T* arr, size_t size) {
-    int pivot = arr[size / 2];
+    T pivot = arr[size / 2];
     int beg = 0, end = size - 1;
 
     while (true) {
