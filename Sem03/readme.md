@@ -226,3 +226,4 @@ RandomIt upper_bound(RandomIt beg, RandomIt end, const T& value) {
 - [**Puncakes**](https://www.hackerrank.com/contests/exam-2022-part2-sda/challenges/puncakes/problem)
 - [**Peak Index in a Mountain Array**](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
 - [**Search A 2D Matrix**](https://leetcode.com/problems/search-a-2d-matrix/description/)
+- [**Склад за ядки**](https://www.hackerrank.com/contests/2-2023-2024/challenges/kosi/problem)
