@@ -121,18 +121,20 @@ BalanceFactor(n) = Height(n->left) - Height(n->left)
 * `std::multi-map<K,V>` - множество от двойки ключ-стойност
 
 ## Задачи 🌻
-[Max Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
-
-[Min Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)
-
-[Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)
-
-[Symmetric Tree](https://leetcode.com/problems/symmetric-tree)
-
-[Царство](https://www.hackerrank.com/contests/kontrolno-3/challenges/challenge-4346)
-
-[Час по рисуване](https://www.hackerrank.com/contests/sda-hw-6-2023/challenges/task3score/problem)
-
-[Longest Substring Without Repeating Elements](https://leetcode.com/problems/longest-substring-without-repeating-characters)
-
-[Волейболни другарчета](https://www.hackerrank.com/contests/sda-hw-8/challenges/volleyball-friends)
+- [Search in Binary Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
+- [Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [PostOrder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/?)
+- [Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
+- [Max Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)
+- [Min Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)
+- [Validate BST](https://leetcode.com/problems/validate-binary-search-tree/)
+- [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)
+- [Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
+- [Right side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+- [Lowest Common Ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
+- [Родословно дърво](https://www.hackerrank.com/contests/sda-homework-6/challenges/parent)
+- [Волейболни другарчета](https://www.hackerrank.com/contests/sda-hw-8/challenges/volleyball-friends/)
+- [Царство](https://www.hackerrank.com/contests/kontrolno-3/challenges/challenge-4346)
+- [Longest Substring Without Repeating Elements](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+- [Маската на Зоро](https://www.hackerrank.com/contests/sda-hw-7-2022/challenges/zoros-mask)
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
