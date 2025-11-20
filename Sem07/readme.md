@@ -145,16 +145,26 @@ std::unordered_set<V> hashSet;
 
 ---
 ## Задачи
-[1. Маската на зоро](https://www.hackerrank.com/contests/sda-hw-7-2022/challenges/zoros-mask)
+[Two Sum - with hashmap](https://leetcode.com/problems/two-sum/description/)
 
-[2. Isomorphic strings](https://leetcode.com/problems/isomorphic-strings/description/)
+[Isomorphic strings](https://leetcode.com/problems/isomorphic-strings/description/)
 
-[3. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
+[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)
 
-[4. Subarrays Sum K](https://leetcode.com/problems/subarray-sum-equals-k/)
+[Клюкарстване](https://www.hackerrank.com/contests/sda-hw-9-2023/challenges/challenge-4437)
 
-[5. 0-1 Subarray](https://www.hackerrank.com/contests/sda-homework-9/challenges/0-1-1/)
+[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
 
-[6. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+[Subarrays Sum K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
-[7. DNA Sequence](https://leetcode.com/problems/repeated-dna-sequences/)
+[0-1 Subarray](https://www.hackerrank.com/contests/sda-homework-9/challenges/0-1-1/)
+
+[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/)
+
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+
+[Count Special Triplets](https://leetcode.com/problems/count-special-triplets/description/)
+
+[LRU Cache](https://leetcode.com/problems/lru-cache/description/)
+
+[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
