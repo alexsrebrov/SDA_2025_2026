@@ -13,3 +13,5 @@
 [**Тема №6**](https://github.com/desiish/SDA_2024_2025/tree/main/Sem06) - Дървета. BST, AVL, Red-Black Tree. Set, Map.
 
 [**Тема №7**](https://github.com/desiish/SDA_2024_2025/tree/main/Sem07) - Хеш таблици.
+
+[**Тема №8**](https://github.com/desiish/SDA_2024_2025/tree/main/Sem08) - Решаване на задачи
