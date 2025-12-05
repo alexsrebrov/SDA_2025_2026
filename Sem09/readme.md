@@ -69,7 +69,7 @@ Memoization (мемоизация) е техника, при която:
 - dp[n] е решението.
 
 ---
-## Задачи
+## Задачи⭐
 - [**Fibonacci Number**](https://leetcode.com/problems/fibonacci-number/)
 - [**Coin Change**](https://leetcode.com/problems/coin-change/description/)
 - [**House Robber**](https://letcode.com/problems/house-robber)
