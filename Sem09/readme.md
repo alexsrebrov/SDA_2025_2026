@@ -72,7 +72,7 @@ Memoization (мемоизация) е техника, при която:
 ## Задачи⭐
 - [**Fibonacci Number**](https://leetcode.com/problems/fibonacci-number/)
 - [**Coin Change**](https://leetcode.com/problems/coin-change/description/)
-- [**House Robber**](https://letcode.com/problems/house-robber)
+- [**House Robber**](https://letcode.com/problems/house-robber/)
 - [**Unique Paths**](https://leetcode.com/problems/unique-paths/)
 - [**Максимален път в матрица**](https://www.hackerrank.com/contests/sda-2022-2023-test7-123-43/challenges/1-454/)
 - [**Longest Common Subsequence**](https://leetcode.com/problems/longest-common-subsequence/)
