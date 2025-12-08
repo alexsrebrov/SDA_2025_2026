@@ -9,7 +9,7 @@ public:
         }
 
         int longestSeq = 0;
-        for(int& num : nums)
+        for(int& num : set)
         {
             if(set.find(num - 1) == set.end())
             {
