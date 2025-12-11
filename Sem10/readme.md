@@ -71,7 +71,7 @@ void pop_heap(RandomIt first, RandomIt last, Compare comp = Compare()) {
 
     if (size > 1) {
         std::swap(*first, *(last - 1));
-        heapify(first, last, first, comp);
+        heapify(first, last - 1, first, comp);
     }
 }
 
