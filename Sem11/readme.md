@@ -136,3 +136,5 @@ DFS(G = (V, E), s начален връх, visited[0...|V| - 1])
 [5. Student's holiday](https://www.hackerrank.com/contests/sda-hw-10-2022/challenges/challenge-3782)
 
 [6. Course scheduler](https://leetcode.com/problems/course-schedule-ii/description/) 
+
+[7. Cycle Detection](https://github.com/desiish/SDA_2025_2026/tree/main/Sem11/Solutions/Cycle%20Detection)
