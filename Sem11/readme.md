@@ -123,3 +123,18 @@ DFS(G = (V, E), s начален връх, visited[0...|V| - 1])
     За всеки съсед adj на s:
       ако visited[adj] = false, изпълни DFS(adj).
 ```
+---
+## Задачи 🌟
+[1. All paths from source to target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)
+
+[2. Count Areas](https://www.hackerrank.com/contests/sda-2021-2022-test-6-christmas/challenges/challenge-2351)
+
+[3. Path between nodes](https://www.hackerrank.com/contests/sda-hw-10-2022/challenges/challenge-2852)
+
+[4. Shortest path with alternating colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/description/)
+
+[5. Student's holiday](https://www.hackerrank.com/contests/sda-hw-10-2022/challenges/challenge-3782)
+
+[6. Course scheduler](https://leetcode.com/problems/course-schedule-ii/description/) 
+
+[7. Cycle Detection](https://github.com/desiish/SDA_2025_2026/tree/main/Sem11/Solutions/Cycle%20Detection)
